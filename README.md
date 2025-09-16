@@ -38,8 +38,8 @@ README.md # Documentación del proyecto
 
 Método
 
--   POST /api/users/login: Iniciar sesión y obtener token JWT
--   POST /api/users/register: Registrar nuevo usuario
+-   POST /api/sessions/login: Iniciar sesión y obtener token JWT
+-   POST /api/sessions/register: Registrar nuevo usuario
 -   GET /api/sessions/current: Obtener usuario autenticado (requiere token)
 
 ## Endpoints principales
@@ -49,5 +49,3 @@ En evolucion y trabajo en progreso...
 Testeo
 
 -   Postman
--   Validaciones en middleware y helpers
--   Tokens con expiración (expiresIn) configurada en generateToken()
